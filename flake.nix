@@ -25,6 +25,7 @@
               pkgs.stdenv.cc.cc
               pkgs.zlib
             ]}:$LD_LIBRARY_PATH
+            echo $LD_LIBRARY_PATH
             # Create a virtual environment if it doesn't exist
             if [ ! -d ".venv" ]; then
               uv venv .venv
@@ -33,8 +34,6 @@
             source .venv/bin/activate
             # Alias pip to uv for faster package installation
             alias pip="uv pip"
-            # auto start jupyter lab
-            uv run jupyter lab
           '';
         };
       }
