@@ -1,0 +1,19 @@
+[project]
+name = "tda"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "jupyterlab>=4.5.7",
+    "hepml>=0.0.12",
+    "kmapper>=2.1.0",
+    "pandas>=2.3.3",
+    "numpy>=1.26.4",
+    "pillow>=12.2.0",
+    "scipy>=1.17.1",
+    "giotto-tda>=0.6.2",
+    "scikit-learn>=1.3.2",
+    "matplotlib>=3.10.9",
+]

@@ -1,0 +1,5 @@
+notes.md
+__pycache__/
+.direnv
+.ipynb_checkpoints/
+.envrc
